@@ -15,4 +15,9 @@ pip3 install terraform-compliance
 Then issue the following commands:<br/>
 terraform init<br/>
 terraform plan --out=plan.out<br/>
+
+For Deploying the Infrastructure:<br/>
+terraform apply "plan.out"
+
+For executing the BDD Test:<br/>
 terraform-compliance -f ./feature -p plan.out
