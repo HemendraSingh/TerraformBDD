@@ -8,7 +8,7 @@ python3 -m venv .venv<br/>
 source .venv/bin/activate<br/>
 
 
-Then, issue the command:<br/>
+Next, issue the command:<br/>
 pip3 install terraform-compliance
 <br/>
 
